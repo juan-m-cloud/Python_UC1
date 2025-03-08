@@ -1,0 +1,5 @@
+a = float(input("Digite a distância (em KM)"))
+b = float(input("Digite a velocidade média (em KM/h)"))
+print ("-" * 30)
+print("Tempo:", a/b)
+print ("-" * 30)

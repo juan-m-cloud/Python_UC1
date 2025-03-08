@@ -1,0 +1,7 @@
+a = float(input("Digite o valor inicial"))
+b = float(input("Digite a taxa de juros por mês"))
+c= float(input("Digite o tempo(em meses)"))
+montante = a + (a * b * c)
+print("-" * 30)
+print(f"Montante final após {c:.0f} meses: R$ {montante:.2f}")
+print("-" *30)

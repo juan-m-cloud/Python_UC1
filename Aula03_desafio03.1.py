@@ -1,0 +1,8 @@
+a = float(input("Digite o valor do 1º número: "))
+b = float(input("Digite o valor do 2º número: "))
+print("-" * 30)
+print("Soma:", a + b)
+print("Subtração", a - b)
+print("Multiplicação", a * b)
+print("Divisão", a / b)
+print("-" * 30)
